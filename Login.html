@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+    </head>
+    <body style="background-image: url('https://b2n.ir/q92643'); text-align: center; background-repeat: no-repeat; background-size: cover;">
+        <form action="" method="POST"> {%csrf_token%}
+
+            <label for="username"> <p><b style=" color: rgb(255, 255, 255); font-size: xx-large;">username: <br></b> 
+                <input type="text" name="username", id="username" style="font-size: xx-large; border-radius: 15px;" value="{{username}}"/> <br></p>
+                
+            </label>
+            <label for="password"> <p><b style=" color: white; font-size: xx-large;">password: <br></b>
+                 <input type="password" name="password" ,id="password" style="font-size: xx-large; border-radius: 15px;"> <br></p>
+                
+            </label>
+            <button type="submit" style="font-size: xx-large; border-radius: 15px;">Login</button>
+    
+        </form>
+        
+    </body>
+</html>
+
+
