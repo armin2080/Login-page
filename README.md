@@ -1,6 +1,6 @@
 A simple Login-page using django framework
-. User can register and then , Login with the username & password
-. all data is saved on database
+- User can register and then , Login with the username & password
+- all data is saved on database
 
 ![register](https://user-images.githubusercontent.com/78423228/147390103-5be51edb-ea4b-449a-8a68-b872fbe2c293.jpg)
 
